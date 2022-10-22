@@ -2224,7 +2224,11 @@ details summary {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0fr 0fr 0fr;
     margin: 1vw 5vw 1vw 5vw;
+}
 
+.faculty_list{
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -2505,6 +2509,7 @@ a {
             ". .";
     }
 
+
     .student_list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -2563,8 +2568,16 @@ a {
 
     }
 
+    .faculty_list{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+          "."
+          "."
+      ;
+    }
+
     .student_list {
-        
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
