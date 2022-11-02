@@ -56,7 +56,7 @@ const countdown = () => {
     
   var Result = Math.round(event_day.getTime() - present_date.getTime()) / (one_day);
     
-  var Final_Result = Result.toFixed(0)-1;
+  var Final_Result = Result.toFixed(0);
 
     document.querySelector(".mySpan").innerHTML = Final_Result;
    console.log("Yes This Function is Executing");
